@@ -28766,7 +28766,7 @@ var CollectionExportsForm = React.createClass({
     return React.createElement(
       'form',
       { action: 'https://codepen.io/pen/define', method: 'POST', target: '_blank', style: formStyle },
-      React.createElement('input', { type: 'hidden', name: 'data', value: 'this.props.htmlMarkup' }),
+      React.createElement('input', { type: 'hidden', name: 'data', value: this.props.htmlMarkup }),
       React.createElement(
         'button',
         { type: 'submit', className: 'btn btn-default' },
